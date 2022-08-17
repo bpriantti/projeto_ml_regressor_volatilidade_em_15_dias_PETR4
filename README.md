@@ -29,34 +29,31 @@ __Frameworks Utilizados:__
 - Scikit learn: https://scikit-learn.org/stable/index.html
 - Statsmodels: https://www.statsmodels.org/stable/index.html
 
+__Project Steps:__
 
-![alt text](https://github.com/bpriantti/Projeto_ML_Regressor_Volatilidade_em_15_dias_PETR4/blob/main/images/image-1.png?raw=true)
-
-
-![alt text](https://github.com/bpriantti/Projeto_ML_Regressor_Volatilidade_em_15_dias_PETR4/blob/main/images/image-2.png?raw=true)
+__Step 01:__ Processo de Aquisição de Dados
 
 
-![alt text](https://github.com/bpriantti/Projeto_ML_Regressor_Volatilidade_em_15_dias_PETR4/blob/main/images/image-3.png?raw=true)
 
 
-![alt text](https://github.com/bpriantti/Projeto_ML_Regressor_Volatilidade_em_15_dias_PETR4/blob/main/images/image-4.png?raw=true)
+<img src="https://github.com/bpriantti/Projeto_ML_Regressor_Volatilidade_em_15_dias_PETR4/blob/main/images/image-1.png?raw=true"  width="700" >
 
+<img src="https://github.com/bpriantti/Projeto_ML_Regressor_Volatilidade_em_15_dias_PETR4/blob/main/images/image-2.png?raw=true"  width="500">
 
-![alt text](https://github.com/bpriantti/Projeto_ML_Regressor_Volatilidade_em_15_dias_PETR4/blob/main/images/image-5.PNG?raw=true)
+<img src="https://github.com/bpriantti/Projeto_ML_Regressor_Volatilidade_em_15_dias_PETR4/blob/main/images/image-3.png?raw=true"  width="500">
 
+<img src="https://github.com/bpriantti/Projeto_ML_Regressor_Volatilidade_em_15_dias_PETR4/blob/main/images/image-4.png?raw=true"  width="500">
 
-![alt text](https://github.com/bpriantti/Projeto_ML_Regressor_Volatilidade_em_15_dias_PETR4/blob/main/images/image-6.PNG?raw=true)
+<img src="https://github.com/bpriantti/Projeto_ML_Regressor_Volatilidade_em_15_dias_PETR4/blob/main/images/image-5.PNG?raw=true"  width="500">
 
+<img src="https://github.com/bpriantti/Projeto_ML_Regressor_Volatilidade_em_15_dias_PETR4/blob/main/images/image-6.PNG?raw=true"  width="800">
 
-![alt text](https://github.com/bpriantti/Projeto_ML_Regressor_Volatilidade_em_15_dias_PETR4/blob/main/images/image-7.PNG?raw=true)
+<img src="https://github.com/bpriantti/Projeto_ML_Regressor_Volatilidade_em_15_dias_PETR4/blob/main/images/image-7.PNG?raw=true"  width="500">
 
+<img src="https://github.com/bpriantti/Projeto_ML_Regressor_Volatilidade_em_15_dias_PETR4/blob/main/images/image-8.PNG?raw=true"  width="500">
 
-![alt text](https://github.com/bpriantti/Projeto_ML_Regressor_Volatilidade_em_15_dias_PETR4/blob/main/images/image-8.PNG?raw=true)
+<img src="https://github.com/bpriantti/Projeto_ML_Regressor_Volatilidade_em_15_dias_PETR4/blob/main/images/image-9.PNG?raw=true"  width="500">
 
+<img src="https://github.com/bpriantti/Projeto_ML_Regressor_Volatilidade_em_15_dias_PETR4/blob/main/images/image-10.PNG?raw=true"  width="500">
 
-![alt text](https://github.com/bpriantti/Projeto_ML_Regressor_Volatilidade_em_15_dias_PETR4/blob/main/images/image-9.PNG?raw=true)
-
-
-![alt text](https://github.com/bpriantti/Projeto_ML_Regressor_Volatilidade_em_15_dias_PETR4/blob/main/images/image-10.PNG?raw=true)
-
-![alt text](https://github.com/bpriantti/Projeto_ML_Regressor_Volatilidade_em_15_dias_PETR4/blob/main/images/image-11.png?raw=true)
+<img src="https://github.com/bpriantti/Projeto_ML_Regressor_Volatilidade_em_15_dias_PETR4/blob/main/images/image-11.png?raw=true"  width="500">
