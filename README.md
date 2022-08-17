@@ -68,16 +68,44 @@ Após a divisão de dados realizou-se o treinamento da PCA para a base de treina
 
 <img src="https://github.com/bpriantti/Projeto_ML_Regressor_Volatilidade_em_15_dias_PETR4/blob/main/images/image-7.PNG?raw=true"  width="500">
 
-__Step 05:__ Treinando/Avaliando o Modelo:
+__Step 05:__ Treinando o Modelo:
 
 Embora para o predict de volatilidade sejam comumente usados os modelos GARCH,TGARCH, optou-se aqui por utilizar o modelo de linear regression com o propósito de verificar o desempenho de um modelo simples no entanto muito conciso em seus resultados, para isso utilizou-se o framework statsmodels, observe abaixo o resultado do treinamento do modelo.
 
 <img src="https://github.com/bpriantti/Projeto_ML_Regressor_Volatilidade_em_15_dias_PETR4/blob/main/images/image-8.PNG?raw=true"  width="500">
 
-Obs: como podemos observar o Rsquare é de aproximadamente 15%, podemos traduzir isso como que o modelo consegue explicar em 15% a variável target, vamos agora avaliar outras métricas de regressão como o MAE, RMSE, todos para a base de teste.
+__Step 06:__ Avaliando o Modelo:
 
+> Vamos agora avaliar a performance do modelo para dados de teste, no repport abaixo:
+
+
+Repport Avaliação  Modelo:
+
+Avaliação train: 
+>MAE:  0.007  
+RMSE:  0.01  
+
+Avaliação test:  
+>MAE:  0.009  
+RMSE:  0.019  
+
+MAE % base:  
+>A vol média da base é: 0.028  
+O percentual do MAE em relaçao à média da base: 32.75%  
+
+Obs: 
+> Obs 1: como podemos observar o Rsquare é de aproximadamente 15%, podemos traduzir isso como que o modelo consegue explicar em 15% a variável target, vamos agora avaliar outras métricas de regressão como o MAE, RMSE, todos para a base de teste.
+
+> Obs 2: Como podemos observar o percentual do MAE em relação a média da base é maior do que 10%, sendo isso um indicativo de que a regressão pode não performar muito bem, no entanto vamos avaliar a performance dos valores previstos vs realizados.
+
+- Gráfico Previstos vs Realizados:
 <img src="https://github.com/bpriantti/Projeto_ML_Regressor_Volatilidade_em_15_dias_PETR4/blob/main/images/image-9.PNG?raw=true"  width="500">
 
+- Gráfico Feature Importance:
 <img src="https://github.com/bpriantti/Projeto_ML_Regressor_Volatilidade_em_15_dias_PETR4/blob/main/images/image-10.PNG?raw=true"  width="500">
 
+- Avaliando Performance do Modelo:
 <img src="https://github.com/bpriantti/Projeto_ML_Regressor_Volatilidade_em_15_dias_PETR4/blob/main/images/image-11.png?raw=true"  width="500">
+
+Obs:
+> Como notamos o modelo se tem a capacidade de prever momentos de alta e baixa da volatilidade, caso levássemos isso para a previsão em operações de volatilidade acertaremos a direção da vol, isso mostra que mesmo que com as métricas de regressao nao tao positivas ainda assim este modelo pode ser útil.
