@@ -30,4 +30,33 @@ __Frameworks Utilizados:__
 - Statsmodels: https://www.statsmodels.org/stable/index.html
 
 
-![alt text]()
+![alt text](https://github.com/bpriantti/Projeto_ML_Regressor_Volatilidade_em_15_dias_PETR4/blob/main/images/image-1.png?raw=true)
+
+
+![alt text](https://github.com/bpriantti/Projeto_ML_Regressor_Volatilidade_em_15_dias_PETR4/blob/main/images/image-2.png?raw=true)
+
+
+![alt text](https://github.com/bpriantti/Projeto_ML_Regressor_Volatilidade_em_15_dias_PETR4/blob/main/images/image-3.png?raw=true)
+
+
+![alt text](https://github.com/bpriantti/Projeto_ML_Regressor_Volatilidade_em_15_dias_PETR4/blob/main/images/image-4.png?raw=true)
+
+
+![alt text](https://github.com/bpriantti/Projeto_ML_Regressor_Volatilidade_em_15_dias_PETR4/blob/main/images/image-5.png?raw=true)
+
+
+![alt text](https://github.com/bpriantti/Projeto_ML_Regressor_Volatilidade_em_15_dias_PETR4/blob/main/images/image-6.png?raw=true)
+
+
+![alt text](https://github.com/bpriantti/Projeto_ML_Regressor_Volatilidade_em_15_dias_PETR4/blob/main/images/image-7.png?raw=true)
+
+
+![alt text](https://github.com/bpriantti/Projeto_ML_Regressor_Volatilidade_em_15_dias_PETR4/blob/main/images/image-8.png?raw=true)
+
+
+![alt text](https://github.com/bpriantti/Projeto_ML_Regressor_Volatilidade_em_15_dias_PETR4/blob/main/images/image-9.png?raw=true)
+
+
+![alt text](https://github.com/bpriantti/Projeto_ML_Regressor_Volatilidade_em_15_dias_PETR4/blob/main/images/image-10.png?raw=true)
+
+![alt text](https://github.com/bpriantti/Projeto_ML_Regressor_Volatilidade_em_15_dias_PETR4/blob/main/images/image-11.png?raw=true)
