@@ -1,12 +1,12 @@
-# Projeto ML Regressor Volatilidade em 15_dias_PETR4
+# Projeto ML Regressor Volatilidade em 15 Dias PETR4
+____
 
-__Bussines Problem:__  
-
-> Durante a rotina de investimentos torna-se atrativo para a tomada de decisão o melhor timing para a exposição e alocação de recursos em um determinado ativo, no entanto os métodos convencionais possuem uma certa subjetividade para essa determinada análise, sendo necessário o desenvolvimento de métodos quantitativos validados de forma científica e objetiva ao longo de 20 anos de série histórica.
+__Bussines Problem:__
+> Durante a rotina de investimentos torna-se importante a estimação da volatilidade tanto para estimar a variação de portfólios ou para operações estruturadas de compra ou venda de volatilidade, sendo necessário o desenvolvimento de modelos quantitativos para o forecasting futuro de movimentos de alta ou baixa de volatilidade.
 
 __Objetivo:__   
 
-> Desenvolver um modelo de  machine learning para a previsão de retornos em 5 dias futuros para o ativo PETR4, listado na bolsa de valores brasileira B3.
+> Desenvolver um modelo quantitativo de Machine Learning, utilizando o framework sklearn, statsmodels para o forecasting da volatilidade em 15 dias do ativo PETR4 listado na bolsa de valores brasileira B3.
 
 __Autor:__  
    - Bruno Priantti.
