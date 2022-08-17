@@ -105,7 +105,7 @@ Obs:
 <img src="https://github.com/bpriantti/Projeto_ML_Regressor_Volatilidade_em_15_dias_PETR4/blob/main/images/image-10.PNG?raw=true"  width="500">
 
 - Avaliando Performance do Modelo:
-<img src="https://github.com/bpriantti/Projeto_ML_Regressor_Volatilidade_em_15_dias_PETR4/blob/main/images/image-11.png?raw=true"  width="500">
+<img src="https://github.com/bpriantti/Projeto_ML_Regressor_Volatilidade_em_15_dias_PETR4/blob/main/images/image-11.png?raw=true"  width="700">
 
 Obs:
 > Como notamos o modelo se tem a capacidade de prever momentos de alta e baixa da volatilidade, caso levássemos isso para a previsão em operações de volatilidade acertaremos a direção da vol, isso mostra que mesmo que com as métricas de regressao nao tao positivas ainda assim este modelo pode ser útil.
