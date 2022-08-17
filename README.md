@@ -33,24 +33,48 @@ __Project Steps:__
 
 __Step 01:__ Processo de Aquisição de Dados
 
+Realizou-se o processo de ETL com a API de dados, yfinance e com isso obteve-se a série histórica do ativo petr4 desde de 2017 a 2022:
 
+<img src="https://github.com/bpriantti/Projeto_ML_Regressor_Volatilidade_em_15_dias_PETR4/blob/main/images/image-1.png?raw=true"  width="600" >
 
+__Step 02:__ Processo de Data Wralling
 
-<img src="https://github.com/bpriantti/Projeto_ML_Regressor_Volatilidade_em_15_dias_PETR4/blob/main/images/image-1.png?raw=true"  width="700" >
+> Em seguida realizou-se o processo de data wralling que consiste em cálculos, manipulações e cálculo de features como variáveis independentes e variáveis alvo, para este caso a variável alvo é a volatilidade em 15 dias futuros, diante disso calculou-se a volatilidade em 15 dias e em seguida realizou-se lag trazendo os 15 dias futuros para o dia atual, sendo esta nossa variável target.
 
-<img src="https://github.com/bpriantti/Projeto_ML_Regressor_Volatilidade_em_15_dias_PETR4/blob/main/images/image-2.png?raw=true"  width="500">
+<img src="https://github.com/bpriantti/Projeto_ML_Regressor_Volatilidade_em_15_dias_PETR4/blob/main/images/image-2.png?raw=true"  width="600">
 
-<img src="https://github.com/bpriantti/Projeto_ML_Regressor_Volatilidade_em_15_dias_PETR4/blob/main/images/image-3.png?raw=true"  width="500">
+> Realizou-se como demonstrado abaixo a visualização da distribuição de frequência da variável target:
 
-<img src="https://github.com/bpriantti/Projeto_ML_Regressor_Volatilidade_em_15_dias_PETR4/blob/main/images/image-4.png?raw=true"  width="500">
+<img src="https://github.com/bpriantti/Projeto_ML_Regressor_Volatilidade_em_15_dias_PETR4/blob/main/images/image-3.png?raw=true"  width="600">
+
+> Em seguida calculou-se as features que serviram para entrada do modelo de machine learning, optou-se por utilizar features de média, volatilidade de janelas diferentes, podemos observar as features na figura abaixo:
+
+<img src="https://github.com/bpriantti/Projeto_ML_Regressor_Volatilidade_em_15_dias_PETR4/blob/main/images/image-4.png?raw=true"  width="700">
+
+> Adiante observou-se a correlação entre as features, estas que com alta correlação podem prejudicar o modelo o enviando informações duplicadas para resolver isso podemos utilizar basicamente dois approaches, ou removemos as features altamente correlacionadas ou utilizamos técnicas como a 
+__Principal Component Analysis__ , esta que possibilita um tratamento algébrico a base de dados removendo a correlação os eixos entre features nos entregando um conjunto de features descorrelacionadas.
 
 <img src="https://github.com/bpriantti/Projeto_ML_Regressor_Volatilidade_em_15_dias_PETR4/blob/main/images/image-5.PNG?raw=true"  width="500">
 
-<img src="https://github.com/bpriantti/Projeto_ML_Regressor_Volatilidade_em_15_dias_PETR4/blob/main/images/image-6.PNG?raw=true"  width="800">
+__Step 03:__ Processo de Data Split
+
+A partir desse ponto realizou-se o processo de data split em train/test, para seguinte research do modelo de machine learning, utilizou-se a proporção de 60%.
+
+<img src="https://github.com/bpriantti/Projeto_ML_Regressor_Volatilidade_em_15_dias_PETR4/blob/main/images/image-6.PNG?raw=true"  width="700">
+
+__Step 04:__ Aplicando PCA:
+
+Após a divisão de dados realizou-se o treinamento da PCA para a base de treinamento e  em seguida aplicou-se para a base de teste, evitando assim o que chamamos de data leakage que consiste em um expressão para indicar o vazamento de informações futuras para o nosso modelo, podendo nos dar uma performance melhor que o esperado que nao se tornaria concentra com o modelo em produção, como observamos temos o nosso conjunto de features totalmente descorrelacionado. 
 
 <img src="https://github.com/bpriantti/Projeto_ML_Regressor_Volatilidade_em_15_dias_PETR4/blob/main/images/image-7.PNG?raw=true"  width="500">
 
+__Step 05:__ Treinando/Avaliando o Modelo:
+
+Embora para o predict de volatilidade sejam comumente usados os modelos GARCH,TGARCH, optou-se aqui por utilizar o modelo de linear regression com o propósito de verificar o desempenho de um modelo simples no entanto muito conciso em seus resultados, para isso utilizou-se o framework statsmodels, observe abaixo o resultado do treinamento do modelo.
+
 <img src="https://github.com/bpriantti/Projeto_ML_Regressor_Volatilidade_em_15_dias_PETR4/blob/main/images/image-8.PNG?raw=true"  width="500">
+
+Obs: como podemos observar o Rsquare é de aproximadamente 15%, podemos traduzir isso como que o modelo consegue explicar em 15% a variável target, vamos agora avaliar outras métricas de regressão como o MAE, RMSE, todos para a base de teste.
 
 <img src="https://github.com/bpriantti/Projeto_ML_Regressor_Volatilidade_em_15_dias_PETR4/blob/main/images/image-9.PNG?raw=true"  width="500">
 
